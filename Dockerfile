@@ -1,6 +1,6 @@
 FROM node:19.2-slim
-COPY package.json .
 WORKDIR /app
+COPY package.json .
 RUN npm install
 COPY . ./
 EXPOSE 3000
