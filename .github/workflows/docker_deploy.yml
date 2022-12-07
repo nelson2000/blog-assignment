@@ -27,9 +27,9 @@ jobs:
 
       - name: docker build nextjs     
         run: |
-          docker build -t $DOCKER_USER/nextjs:1.0.0 .
+          docker build . --tag nwajienelson/nextjs:1.0.0 
       
       - name: docker push nextjs
         
         run: |
-          docker push $DOCKER_USER/nextjs:1.0.0
+          docker push nwajienelson/nextjs:1.0.0
