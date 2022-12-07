@@ -1,14 +1,20 @@
-
-name: Deploy to Dockerhub
+name: ci
 
 on:
   push:
     branches: [ master ]
 
 jobs:
+
   docker:
+
     runs-on: ubuntu-latest
+    
     steps:
+      -
+      
+        name: Checkout 
+        uses: actions/checkout@v2
       -
         name: Set up QEMU
         uses: docker/setup-qemu-action@v2
@@ -27,4 +33,3 @@ jobs:
         with:
           push: true
           tags: user/app:latest
-
