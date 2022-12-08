@@ -15,8 +15,9 @@ I forked that into my github repo and started work.
 - made a multi-stage  [Dockerfile](./Dockerfile) to create an image out of the source code.
 - Decided to use github actions as it is faster for the CI/CD workflow
 - built my [github-actions](/.github/workflows/deploy_to_ecr_ecs.yml) workflow to store artifact in ECR and deploy in ECS
-- created a repo on ECR on AWS Account in us-east-2
+- created a repo on ECR on AWS Account in us-east-1 region 
 - created ECS Cluster in same region
+- I made my setup highly available by spreading the cluster in different availability zone
 - Used terraform to set up VPCs, Subnets, Route tables, Internet Gateways etc
 - Ran my github action workflow to build the image from the dockerfile, send it to ECR and deploy to ECS
 - There are many other options for the architecture of this project but i decided to go with this.
