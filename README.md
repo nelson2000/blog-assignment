@@ -14,7 +14,7 @@ I forked that into my github repo and started work.
 - Ran it locally on my PC with nodejs and npm installed to be sure it works and the source code is not broken
 - made a multi-stage  [Dockerfile](./Dockerfile) to create an image out of the source code.
 - Decided to use github actions as it is faster for the CI/CD workflow
-- built my [(/.github/workflows/deploy_to_ecr_ecs.yml)github-actions] workflow to store artifact in ECR and deploy in ECS
+- built my [github-actions](/.github/workflows/deploy_to_ecr_ecs.yml) workflow to store artifact in ECR and deploy in ECS
 - created a repo on ECR on AWS Account in us-east-2
 - created ECS Cluster in same region
 -  
