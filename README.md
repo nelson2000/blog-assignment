@@ -41,3 +41,10 @@ I forked that into my github repo and started work.
 
 ## Note
 - This is just a summary of the project, it can be more elaborate but just keeping it simple. it is just a blog.
+
+
+
+Designed by 
+
+Nelson Nwajie
+Cloud DevOps Engineer
