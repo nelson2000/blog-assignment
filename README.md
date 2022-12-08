@@ -24,6 +24,7 @@ I forked that into my github repo and started work.
 - Used terraform (IAC) to set up VPCs, Subnets, Route tables, Internet Gateways etc
 - Ran my github action workflow to build the image from the dockerfile, send it to ECR and deploy to ECS
 - There are many other options for the architecture of this project but i decided to go with this.
+- I could use fargate for my ECS rather than EC2 instances, then i dont have to worry about ASG
 - other options like using AWS Apps runner, AWS Amplify etc. 
 
 
