@@ -19,7 +19,7 @@ I forked that into my github repo and started work.
 - created ECS Cluster in same region
 - My ECS cluster ran some EC2 Instances and used Auto scaling group for the EC2
 - Attached a load balancer to the EC2 and connected it with Auto-Scaling Group
-- Set up my DNS route 53 and connect with my loadbalancer end point through A-records
+- Set up my AWS DNS route 53 and connect with my loadbalancer end point through A-records
 - I made my setup highly available by spreading the cluster in different availability zone
 - Used terraform (IAC) to set up VPCs, Subnets, Route tables, Internet Gateways etc
 - Ran my github action workflow to build the image from the dockerfile, send it to ECR and deploy to ECS
