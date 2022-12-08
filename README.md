@@ -22,5 +22,5 @@ The first thing i did was to test if the web page was accessible, by cloning the
 - AWS
 - Elastic Container Registry
 - Elastic Container Services
-- 
+
 ![image](https://user-images.githubusercontent.com/20236706/206466705-678b9199-d6b7-466e-a788-5511262247aa.png)
