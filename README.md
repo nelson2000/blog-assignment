@@ -17,9 +17,9 @@ I forked that into my github repo and started work.
 - built my [github-actions](/.github/workflows/deploy_to_ecr_ecs.yml) workflow to store artifact in ECR and deploy in ECS
 - created a repo on ECR on AWS Account in us-east-2
 - created ECS Cluster in same region
--  
-- 
-
+- Used terraform to set up VPCs, Subnets, Route tables, Internet Gateways etc
+- Ran my github action workflow to build the image from the dockerfile, send it to ECR and deploy to ECS
+- There are many other options for the architecture of this project but i decided to go with this.
 
 
 ### Tools used
@@ -30,5 +30,7 @@ I forked that into my github repo and started work.
 - AWS
 - Elastic Container Registry
 - Elastic Container Services
+- Terraform
 
 ![image](https://user-images.githubusercontent.com/20236706/206466705-678b9199-d6b7-466e-a788-5511262247aa.png)
+
