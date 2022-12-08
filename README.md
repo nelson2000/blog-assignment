@@ -1,4 +1,4 @@
-# Creating a CI/CD Workflow a static blog webpage built on Next.js, Markdown, and TypeScript, with Github action, AWS ECR and ECS
+## Creating a CI/CD Pipeline for a static blog webpage built on Next.js, Markdown, and TypeScript, with Github action, AWS ECR and ECS
 
 
 The source code was forked from the main source code repo 
