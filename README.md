@@ -9,7 +9,7 @@ The main source code for the project was in /examples/blog-starter
 I forked that into my github repo and started work.
 
 ## Steps
-- cloned the entire repo on my local PC
+- Cloned the entire repo on my local PC
 - Copied out /example/blog-starter
 - Ran it locally on my PC with nodejs and npm installed to be sure it works and the source code is not broken
 - made a multi-stage  [Dockerfile](./Dockerfile) to create an image out of the source code.
