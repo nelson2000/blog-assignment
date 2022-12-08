@@ -18,7 +18,7 @@ The first thing i did was to test if the web page was accessible, by cloning the
 
 - docker
 - [dockerfile](./Dockerfile)
-- Github Actions](/.github/workflows/)
+- [Github Actions](/.github/workflows/deploy1.yaml)
 - AWS
 - Elastic Container Registry
 - Elastic Container Services
