@@ -31,7 +31,7 @@ I forked that into my github repo and started work.
 - AWS
 - Elastic Container Registry
 - Elastic Container Services
-- Terraform
+- [Terraform](./vpc.tf)
 
 ![image](https://user-images.githubusercontent.com/20236706/206466705-678b9199-d6b7-466e-a788-5511262247aa.png)
 
