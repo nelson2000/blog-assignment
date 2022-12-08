@@ -45,8 +45,8 @@ I forked that into my github repo and started work.
 
 
 
-Designed by 
+                          - Designed by 
 
-Nelson Nwajie
-Cloud DevOps Engineer
-8th December 2022
+                                - Nelson Nwajie
+                                - Cloud DevOps Engineer
+                                - 8th December 2022
