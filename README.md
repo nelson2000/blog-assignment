@@ -18,9 +18,10 @@ I forked that into my github repo and started work.
 - created a repo on ECR on AWS Account in us-east-1 region 
 - created ECS Cluster in same region
 - I made my setup highly available by spreading the cluster in different availability zone
-- Used terraform to set up VPCs, Subnets, Route tables, Internet Gateways etc
+- Used terraform (IAC) to set up VPCs, Subnets, Route tables, Internet Gateways etc
 - Ran my github action workflow to build the image from the dockerfile, send it to ECR and deploy to ECS
 - There are many other options for the architecture of this project but i decided to go with this.
+- other options like using AWS Apps runner, AWS Amplify etc. 
 
 
 ### Tools used
@@ -29,9 +30,11 @@ I forked that into my github repo and started work.
 - [Dockerfile](./Dockerfile)
 - [Github Actions](/.github/workflows/deploy_to_ecr_ecs.yml)
 - AWS
-- Elastic Container Registry
-- Elastic Container Services
+- Elastic Container Registry 
+- Elastic Container Services (EC2 or Fargate)
 - [Terraform](./vpc.tf)
 
 ![image](https://user-images.githubusercontent.com/20236706/206466705-678b9199-d6b7-466e-a788-5511262247aa.png)
 
+## Note
+- This is just a summary of the project, it can be more elaborate but just keeping it simple. it is just a blog.
